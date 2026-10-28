@@ -419,18 +419,6 @@ Save transformed data as JSON.
 
 ---
 
-# 📷 Screenshots
-
-Add screenshots here.
-
-- Architecture Diagram
-- LangGraph Workflow
-- SQL Agent Output
-- ETL Agent Output
-- Streamlit UI
-
----
-
 # 🤝 Contributing
 
 Contributions are welcome.
