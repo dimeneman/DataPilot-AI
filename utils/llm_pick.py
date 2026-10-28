@@ -31,6 +31,11 @@ def pick_llm(level: str):
     return ChatGoogleGenerativeAI(
         model=model,
         temperature=0,
+        # Bound each upstream request. The integration otherwise retries
+        # transient Gemini failures many times, which can keep a graph node
+        # blocked long enough for the web client's request to time out.
+        request_timeout=60,
+        retries=2,
     )
 
 

@@ -75,3 +75,9 @@ wcwidth==0.9.4
 websockets==17.3
 xxhash==4.0.2
 zstandard==0.25.0
+
+# Web application
+fastapi
+uvicorn[standard]
+streamlit
+requests
